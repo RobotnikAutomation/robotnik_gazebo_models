@@ -18,7 +18,7 @@
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      
+
       <visual name='visual0'>
         <pose frame=''>0 0 -0.025 0 -0 0</pose>
         <geometry>
@@ -29,10 +29,10 @@
         </geometry>
         <material>
           <lighting>1</lighting>
-          <script>
+          <!--script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Grey</name>
-          </script>
+          </script-->
           <ambient>0.3 0.3 0.3 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
@@ -55,7 +55,7 @@
         </geometry>
       </collision>
 
-     
+
       <collision name='collision1'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
@@ -67,7 +67,7 @@
         </geometry>
       </collision>
 
-       
+
       <collision name='collision2'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
@@ -79,7 +79,7 @@
         </geometry>
       </collision>
 
-     
+
       <collision name='collision3'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
@@ -101,7 +101,7 @@
           </box>
         </geometry>
       </collision>
-      
+
       <collision name='collision5'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
@@ -146,16 +146,16 @@
         <pose frame=''>0 0 -0.45 0 -0 0</pose>
         <geometry>
           <mesh>
-			<uri>model://rb2cart/meshes/qr_structure.dae</uri>
+			<uri>model://rb2_simple_cart/meshes/qr_structure.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
           <lighting>1</lighting>
-          <script>
+          <!--script>
             <uri>file://media/materials/scripts/gazebo.material.dae</uri>
             <name>Gazebo/Grey</name>
-          </script>
+          </script-->
           <ambient>0.3 0.3 0.3 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
@@ -194,8 +194,8 @@
         </geometry>
         <material>
           <script>
-		<uri>model://rb2cart/material/scripts</uri>
-		<uri>model://rb2cart/material/textures</uri>
+		<uri>model://rb2_simple_cart/material/scripts</uri>
+		<uri>model://rb2_simple_cart/material/textures</uri>
             <name>ARtrack/marker0_12cm</name>
           </script>
         </material>
