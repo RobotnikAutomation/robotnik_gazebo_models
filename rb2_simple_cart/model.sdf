@@ -194,9 +194,9 @@
         </geometry>
         <material>
           <script>
-		<uri>model://rb2_simple_cart/material/scripts</uri>
-		<uri>model://rb2_simple_cart/material/textures</uri>
-            <name>ARtrack/marker0_12cm</name>
+		<uri>model://marker4_12cm/material/scripts</uri>
+		<uri>model://marker4_12cm/material/textures</uri>
+		<name>ARtrack/marker4_12cm</name>
           </script>
         </material>
         <cast_shadows>1</cast_shadows>
@@ -204,6 +204,121 @@
       </visual>
     </link>
 
+    <link name='link_reflector_1'>
+      <pose frame='link_0'>0.1 -0.355 0.25 0 -0 0</pose>
+      <gravity>0</gravity>
+
+      <visual name='visual0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.05 0.15</size></box>
+        </geometry>
+	<material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.1 0.06</size></box>
+        </geometry>
+	<laser_retro>8000</laser_retro>
+      </collision>
+    </link>
+    
+    <link name='link_reflector_2'>
+      <pose frame='link_0'>0.1 0.355 0.25 0 -0 0</pose>
+      <gravity>0</gravity>
+
+      <visual name='visual0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.05 0.15</size></box>
+        </geometry>
+	<material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.1 0.06</size></box>
+        </geometry>
+	<laser_retro>8000</laser_retro>
+      </collision>
+    </link>
+
+    <link name='link_reflector_3'>
+      <pose frame='link_0'>-0.1 -0.355 0.25 0 -0 0</pose>
+      <gravity>0</gravity>
+
+      <visual name='visual0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.05 0.15</size></box>
+        </geometry>
+	<material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.1 0.06</size></box>
+        </geometry>
+	<laser_retro>8000</laser_retro>
+      </collision>
+    </link>
+    
+    <link name='link_reflector_4'>
+      <pose frame='link_0'>-0.1 0.355 0.25 0 -0 0</pose>
+      <gravity>0</gravity>
+
+      <visual name='visual0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.05 0.15</size></box>
+        </geometry>
+	<material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision0'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box><size>0.005 0.1 0.06</size></box>
+        </geometry>
+	<laser_retro>8000</laser_retro>
+      </collision>
+    </link>
 
 
 
