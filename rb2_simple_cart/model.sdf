@@ -47,7 +47,7 @@
       <collision name='collision0'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0.0 -0.0 0.424 0 -0 0</pose>
+        <pose frame=''>0.0 -0.0 0.4 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.85 0.80 0.05</size>
@@ -59,7 +59,7 @@
       <collision name='collision1'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>-0.1 0.35 0.2145 0 -0 0</pose>
+        <pose frame='link_0'>-0.075 0.35 0.2145 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.4</size>
@@ -71,7 +71,7 @@
       <collision name='collision2'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>0.1 0.35 0.2145 0 -0 0</pose>
+        <pose frame='link_0'>0.075 0.35 0.2145 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.419</size>
@@ -83,7 +83,7 @@
       <collision name='collision3'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>0.1 -0.35 0.2145 0 -0 0</pose>
+        <pose frame='link_0'>0.075 -0.35 0.2145 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.419</size>
@@ -94,7 +94,7 @@
      <collision name='collision4'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>-0.1 -0.35 0.2145 0 -0 0</pose>
+        <pose frame='link_0'>-0.075 -0.35 0.2145 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.419</size>
@@ -205,7 +205,7 @@
     </link>
 
     <link name='link_reflector_1'>
-      <pose frame='link_0'>0.1 -0.355 0.25 0 -0 0</pose>
+      <pose frame='link_0'>0.1 -0.355 0.21 0 -0 0</pose>
       <gravity>0</gravity>
 
       <visual name='visual0'>
@@ -227,14 +227,14 @@
       <collision name='collision0'>
         <pose frame=''>0 0 -0.0 0 -0 0</pose>
         <geometry>
-          <box><size>0.005 0.1 0.06</size></box>
+          <box><size>0.005 0.05 0.15</size></box>
         </geometry>
 	<laser_retro>8000</laser_retro>
       </collision>
     </link>
     
     <link name='link_reflector_2'>
-      <pose frame='link_0'>0.1 0.355 0.25 0 -0 0</pose>
+      <pose frame='link_0'>0.1 0.355 0.21 0 -0 0</pose>
       <gravity>0</gravity>
 
       <visual name='visual0'>
@@ -256,14 +256,14 @@
       <collision name='collision0'>
         <pose frame=''>0 0 -0.0 0 -0 0</pose>
         <geometry>
-          <box><size>0.005 0.1 0.06</size></box>
+          <box><size>0.005 0.05 0.15</size></box>
         </geometry>
 	<laser_retro>8000</laser_retro>
       </collision>
     </link>
 
     <link name='link_reflector_3'>
-      <pose frame='link_0'>-0.1 -0.355 0.25 0 -0 0</pose>
+      <pose frame='link_0'>-0.1 -0.355 0.21 0 -0 0</pose>
       <gravity>0</gravity>
 
       <visual name='visual0'>
@@ -292,7 +292,7 @@
     </link>
     
     <link name='link_reflector_4'>
-      <pose frame='link_0'>-0.1 0.355 0.25 0 -0 0</pose>
+      <pose frame='link_0'>-0.1 0.355 0.21 0 -0 0</pose>
       <gravity>0</gravity>
 
       <visual name='visual0'>
