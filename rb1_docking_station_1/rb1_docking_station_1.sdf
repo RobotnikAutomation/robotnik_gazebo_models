@@ -54,20 +54,20 @@
     </link>
     
     <link name='link_qr_code'>
-      <pose frame=''>-0.114 0 0.1295 0 0 0</pose>
+      <pose frame=''>-0.114 0 0.1395 0 0 0</pose>
       <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.002 0.12 0.12</size>
+            <size>0.002 0.14 0.14</size>
           </box>
         </geometry>
         <material>
           <script>
-		<uri>model://marker1_12cm/material/scripts</uri>
-		<uri>model://marker1_12cm/material/textures</uri>
-		<name>ARtrack/marker1_12cm</name>
+		<uri>model://marker1_border_12cm/material/scripts</uri>
+		<uri>model://marker1_border_12cm/material/textures</uri>
+		<name>ARtrack/marker1_border_12cm</name>
           </script>
         </material>
        
