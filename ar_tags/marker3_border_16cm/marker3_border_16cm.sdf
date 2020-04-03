@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <model name="marker4_border_12cm">
+  <model name="marker3_border_16cm">
     <static>true</static>
-    <link name="marker4_border_12cm">
+    <link name="marker3_border_16cm">
       <visual name="visual">
         <geometry>
           <box>
@@ -12,9 +12,9 @@
         </geometry>
         <material>
           <script>
-	    <uri>model://marker4_border_12cm/material/scripts</uri>
-	    <uri>model://marker4_border_12cm/material/textures</uri>
-            <name>ARtrack/marker4_border_12cm</name>
+	    <uri>model://marker3_border_16cm/material/scripts</uri>
+	    <uri>model://marker3_border_16cm/material/textures</uri>
+            <name>ARtrack/marker3_border_16cm</name>
           </script>
         </material>
       </visual>
