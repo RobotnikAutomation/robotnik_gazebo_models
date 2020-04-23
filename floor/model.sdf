@@ -4577,6 +4577,56 @@
         <pose frame=''>0.215781 0 2.25 0 -0 0</pose>
       </collision>
     </link>
+    <link name='reflector_1'>
+      <pose frame='link_0'>10.3 -16.02 0.185 0 -0 -0.983</pose>
+
+      <gravity>0</gravity>
+
+      <visual name='visual_reflector_1'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.05 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision_reflector_1'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.05 0.15</size>
+          </box>
+        </geometry>
+        <laser_retro>8000</laser_retro>
+      </collision>
+    </link>
+    <joint name='reflector_1_joint' type='fixed'>
+      <parent>Wall_271</parent>
+      <child>reflector_1</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
     <link name='Wall_273'>
       <collision name='Wall_273_Collision'>
         <geometry>
@@ -4604,6 +4654,55 @@
       <!--pose frame=''>9.15007 -16.6017 0 0 0 -2.58365465359</pose-->
       <pose frame=''>9.1660 -16.6272 0 0 0 -2.58365465359</pose>
     </link>
+    <link name='reflector_2'>
+      <pose frame='link_0'>9.44 -16.58 0.185 0 0 -0.983</pose>
+      <gravity>0</gravity>
+
+      <visual name='visual_reflector_2'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.05 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+          <shader type='vertex'>
+            <normal_map>__default__</normal_map>
+          </shader>
+        </material>
+      </visual>
+      <collision name='collision_reflector_2'>
+        <pose frame=''>0 0 -0.0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.05 0.15</size>
+          </box>
+        </geometry>
+        <laser_retro>8000</laser_retro>
+      </collision>
+    </link>
+    <joint name='reflector_2_joint' type='fixed'>
+      <parent>Wall_273</parent>
+      <child>reflector_2</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
     <link name='Wall_275'>
       <pose frame=''>-0.589967 -16.7403 0 0 -0 3.14061</pose>
       <visual name='Wall_275_Visual_0'>
