@@ -27,12 +27,12 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
-       
+
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
       </visual>
-      
-      
+
+
       <collision name='collision0'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
@@ -60,7 +60,7 @@
       <collision name='collision2'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>-0.315 0.3 0.18 0 -0 0</pose>
+        <pose frame='link_0'>-0.300 0.3 0.18 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.36</size>
@@ -83,7 +83,7 @@
      <collision name='collision4'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame='link_0'>-0.315 -0.3 0.18 0 -0 0</pose>
+        <pose frame='link_0'>-0.300 -0.3 0.18 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.03 0.03 0.36</size>
@@ -114,7 +114,7 @@
       </collision>
     </link>
 
-   
+
 
     <link name='link_reflector_1'>
       <pose frame='link_0'>-0.315 0.3 0.185 0 -0 0</pose>
@@ -145,7 +145,7 @@
 	<laser_retro>8000</laser_retro>
       </collision>
     </link>
-    
+
     <link name='link_reflector_2'>
       <pose frame='link_0'>-0.315 -0.3 0.185 0 -0 0</pose>
       <gravity>0</gravity>
@@ -174,7 +174,7 @@
 	<laser_retro>8000</laser_retro>
       </collision>
     </link>
-    
+
     <link name='link_qr_code'>
       <pose frame=''>-0.0 0 0.225 0 0 0</pose>
       <gravity>0</gravity>
@@ -192,7 +192,7 @@
 		<name>ARtrack/marker4_border_12cm</name>
           </script>
         </material>
-       
+
       </visual>
     </link>
 
