@@ -57,6 +57,34 @@
       </collision>
     </link>
 
+    <model name='markers'>
+      <static>1</static>
+      <link name='markers'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.001 0.297 0.210</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://steel_tke_glovebox/material/scripts</uri>
+              <uri>model://steel_tke_glovebox/material/textures</uri>
+              <name>ARtrack/markers</name>
+            </script>
+          </material>
+        </visual>
+        <!--collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.001 0.297 0.210</size>
+            </box>
+          </geometry>
+        </collision-->
+      </link>
+      <pose frame=''>0.473 -0.015 1.25 0 0 0</pose>
+    </model>
+
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
   </model>
