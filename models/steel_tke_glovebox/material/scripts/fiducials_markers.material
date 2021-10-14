@@ -1,0 +1,14 @@
+material ARtrack/fiducials_markers
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fiducials_markers.png
+			}
+		}
+	}
+}
+
