@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name='steel_tke_glovebox'>
-    <link name='link'>
+    <link name='base_link'>
       <pose frame=''>0 0 0 0 0 0</pose>
       <inertial>
          <mass>50</mass>
@@ -57,33 +57,28 @@
       </collision>
     </link>
 
-    <model name='hole_marker'>
-      <static>1</static>
-      <link name='hole_marker'>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>0.001 0.297 0.210</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://steel_tke_glovebox/material/scripts</uri>
-              <uri>model://steel_tke_glovebox/material/textures</uri>
-              <name>ARtrack/hole_marker</name>
-            </script>
-          </material>
-        </visual>
-        <!--collision name='collision'>
-          <geometry>
-            <box>
-              <size>0.001 0.297 0.210</size>
-            </box>
-          </geometry>
-        </collision-->
-      </link>
-      <pose frame=''>0.473 -0.015 1.25 0 0 0</pose>
-    </model>
+    <joint name='hole_marker_joint' type='fixed'>
+      <parent>base_link</parent>
+      <child>hole_marker</child>
+    </joint>
+
+    <link name='hole_marker'>
+      <visual name='visual'>
+        <pose frame=''>0.473 -0.015 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.001 0.297 0.210</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://steel_tke_glovebox/material/scripts</uri>
+            <uri>model://steel_tke_glovebox/material/textures</uri>
+            <name>ARtrack/hole_marker</name>
+          </script>
+        </material>
+      </visual>
+    </link>
 
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
