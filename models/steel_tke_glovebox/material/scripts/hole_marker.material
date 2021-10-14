@@ -1,4 +1,4 @@
-material ARtrack/markers
+material ARtrack/hole_marker
 {
 	technique
 	{
@@ -6,7 +6,7 @@ material ARtrack/markers
 		{
 			texture_unit
 			{
-				texture markers.png
+				texture hole_marker.png
 			}
 		}
 	}

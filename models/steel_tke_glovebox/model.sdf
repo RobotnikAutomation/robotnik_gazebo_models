@@ -57,9 +57,9 @@
       </collision>
     </link>
 
-    <model name='markers'>
+    <model name='hole_marker'>
       <static>1</static>
-      <link name='markers'>
+      <link name='hole_marker'>
         <visual name='visual'>
           <geometry>
             <box>
@@ -70,7 +70,7 @@
             <script>
               <uri>model://steel_tke_glovebox/material/scripts</uri>
               <uri>model://steel_tke_glovebox/material/textures</uri>
-              <name>ARtrack/markers</name>
+              <name>ARtrack/hole_marker</name>
             </script>
           </material>
         </visual>
