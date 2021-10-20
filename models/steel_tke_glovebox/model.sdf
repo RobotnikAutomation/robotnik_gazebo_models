@@ -54,6 +54,9 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <contact>
+          <collide_without_contact>false</collide_without_contact>
+        </contact>
       </collision>
     </link>
 
