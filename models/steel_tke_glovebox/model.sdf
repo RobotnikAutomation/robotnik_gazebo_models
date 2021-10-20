@@ -3,7 +3,7 @@
   <model name='steel_tke_glovebox'>
     <link name='base_link'>
       <pose frame=''>0 0 0 0 0 0</pose>
-      <inertial>
+      <!--inertial>
          <mass>50</mass>
         <inertia>
           <ixx>0.166667</ixx>
@@ -17,7 +17,7 @@
       </inertial>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
-      <kinematic>0</kinematic>
+      <kinematic>0</kinematic-->
 
       <visual name='visual'>
         <pose frame=''>0 0 0 0 0 0</pose>
@@ -106,7 +106,8 @@
       </visual>
     </link>
 
-    <static>0</static>
+    <!--static>0</static-->
+    <static>1</static>
     <allow_auto_disable>1</allow_auto_disable>
   </model>
 </sdf>
