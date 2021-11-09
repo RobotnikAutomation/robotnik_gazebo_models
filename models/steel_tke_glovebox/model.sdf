@@ -83,24 +83,24 @@
       </visual>
     </link>
 
-    <joint name='fiducials_markers_joint' type='fixed'>
+    <joint name='gb_markers_joint' type='fixed'>
       <parent>base_link</parent>
-      <child>fiducials_markers</child>
+      <child>gb_markers</child>
     </joint>
 
-    <link name='fiducials_markers'>
+    <link name='gb_markers'>
       <visual name='visual'>
         <pose frame=''>0.43 0 0.375 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.001 1.2 0.7</size>
+            <size>0.001 0.420 0.297</size>
           </box>
         </geometry>
         <material>
           <script>
             <uri>model://steel_tke_glovebox/material/scripts</uri>
             <uri>model://steel_tke_glovebox/material/textures</uri>
-            <name>ARtrack/fiducials_markers</name>
+            <name>ARtrack/gb_markers</name>
           </script>
         </material>
       </visual>
