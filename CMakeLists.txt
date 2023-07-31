@@ -10,6 +10,6 @@ catkin_package()
 include_directories(${catkin_INCLUDE_DIRS})
 
 install(
-  DIRECTORY launch meshes urdf robots
+  DIRECTORY models
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
