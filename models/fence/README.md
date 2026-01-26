@@ -9,4 +9,4 @@ The .blend file of this directory allows to customize the parameters of the fenc
     - Path = robotnik_gazebo_models/models/fence/source
     - General --> Forward Axis = X
     - General --> Up Axis = Z
-    - Materials = Copy
+    - Materials --> Path Mode = Copy
