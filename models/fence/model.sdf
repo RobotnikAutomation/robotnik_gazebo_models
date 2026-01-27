@@ -21,7 +21,7 @@
           <geometry>
             <mesh>
               <scale>1.0 1.0 1.0</scale> 
-              <uri>model://valla/source/model.obj</uri>
+              <uri>model://fence/source/model.obj</uri>
             </mesh>
           </geometry>
       </visual>
@@ -30,7 +30,7 @@
         <geometry>
           <mesh>
               <scale>1.0 1.0 1.0</scale> 
-              <uri>model://valla/source/model.obj</uri>
+              <uri>model://fence/source/model.obj</uri>
             </mesh>
         </geometry>
       </collision>
